@@ -1,80 +1,44 @@
 <!doctype html>
-<html
-  lang="en"
-  class="page"
->
+<html lang="en" class="page">
   <!-- #region head -->
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NAMU</title>
 
-    <link
-      rel="icon"
-      href="./images/favicon.svg"
-    />
+    <link rel="icon" href="./images/favicon.svg" />
 
     <!-- #region fonts -->
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
 
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
     <!-- #endregion -->
 
-    <link
-      rel="stylesheet"
-      href="./styles/main.scss"
-    />
-    <script
-      src="scripts/main.js"
-      defer
-    ></script>
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <script src="scripts/main.js" defer></script>
   </head>
   <!-- #endregion -->
 
   <body class="page__body">
     <!-- #region header -->
     <header class="header page__header">
-      <a
-        href="#menu"
-        class="header__menu-button icons icons--menu"
-      ></a>
+      <a href="#menu" class="header__menu-button icons icons--menu"></a>
 
-      <a
-        href="#events"
-        class="events-button header__events-button"
-      >
+      <a href="#events" class="events-button header__events-button">
         <div class="events-button__text">події</div>
       </a>
 
-      <a
-        href="#"
-        class="logo header__logo"
-      >
+      <a href="#" class="logo header__logo">
         <div class="logo__text">
           NA
           <br />
@@ -91,10 +55,7 @@
       <div class="header__content">
         <h1 class="header__title">Художній музей</h1>
 
-        <a
-          href="#events"
-          class="buy-tickets header__buy-tickets"
-        >
+        <a href="#events" class="buy-tickets header__buy-tickets">
           <div class="buy-tickets__text">квитки</div>
         </a>
       </div>
@@ -102,96 +63,68 @@
     <!-- #endregion -->
 
     <!-- #region menu -->
-    <aside
-      class="menu page__menu"
-      id="menu"
-    >
-      <div class="menu__grid">
-        <div class="menu__content">
-          <!-- #region menu-top -->
-          <div class="menu__top">
-            <a
-              href="#"
-              class="icons icons--close"
-            ></a>
+    <aside class="menu page__menu" id="menu">
+      <div class="menu__content">
+        <!-- #region menu-top -->
+        <div class="menu__top">
+          <a href="#" class="icons icons--close"></a>
 
-            <!-- #region navigation -->
-            <nav class="nav menu__nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a
-                    href="#gallery"
-                    class="nav__link"
-                  >
-                    Галерея
-                  </a>
-                </li>
+          <!-- #region navigation -->
+          <nav class="nav menu__nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#gallery" class="nav__link"> Галерея </a>
+              </li>
 
-                <li class="nav__item">
-                  <a
-                    href="#contact-us"
-                    class="nav__link"
-                  >
-                    Про Нас
-                  </a>
-                </li>
+              <li class="nav__item">
+                <a href="#contact-us" class="nav__link"> Про Нас </a>
+              </li>
 
-                <li class="nav__item">
-                  <a
-                    href="#events"
-                    class="nav__link"
-                  >
-                    Виставки та події
-                  </a>
-                </li>
+              <li class="nav__item">
+                <a href="#events" class="nav__link"> Виставки та події </a>
+              </li>
 
-                <li class="nav__item">
-                  <a
-                    href="#contact-us"
-                    class="nav__link"
-                  >
-                    Контакти
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <!-- #endregion -->
-          </div>
-          <!-- #endregion -->
-
-          <div class="menu__line"></div>
-
-          <!-- #region shedule -->
-          <div class="shedule menu__shedule">
-            <p class="shedule__title">Графік роботи</p>
-
-            <p class="shedule__work-days">
-              <strong>12:00 — 20:00</strong>
-              середа
-              <br />
-              <strong>12:00 — 20:00</strong>
-              четвер
-              <br />
-              <strong>12:00 — 20:00</strong>
-              п’ятниця
-              <br />
-              <strong>11:00 — 19:00</strong>
-              субота
-              <br />
-              <strong>11:00 — 19:00</strong>
-              неділя
-              <br />
-            </p>
-
-            <p class="shedule__weekends">
-              <strong>Вихідні</strong>
-              : понеділок, вівторок
-              <br />
-              Каса припиняє роботу за 1 годину до закриття музею
-            </p>
-          </div>
+              <li class="nav__item">
+                <a href="#contact-us" class="nav__link"> Контакти </a>
+              </li>
+            </ul>
+          </nav>
           <!-- #endregion -->
         </div>
+        <!-- #endregion -->
+
+        <div class="menu__line"></div>
+
+        <!-- #region shedule -->
+        <div class="shedule menu__shedule">
+          <p class="shedule__title">Графік роботи</p>
+
+          <p class="shedule__work-days">
+            <strong>12:00 — 20:00</strong>
+            середа
+            <br />
+            <strong>12:00 — 20:00</strong>
+            четвер
+            <br />
+            <strong>12:00 — 20:00</strong>
+            п’ятниця
+            <br />
+            <strong>11:00 — 19:00</strong>
+            субота
+            <br />
+            <strong>11:00 — 19:00</strong>
+            неділя
+            <br />
+          </p>
+
+          <p class="shedule__weekends">
+            <strong>Вихідні</strong>
+            : понеділок, вівторок
+            <br />
+            Каса припиняє роботу за 1 годину до закриття музею
+          </p>
+        </div>
+        <!-- #endregion -->
       </div>
     </aside>
     <!-- #endregion -->
@@ -200,10 +133,7 @@
     <main class="main page__main">
       <div class="main__content">
         <!-- #region events -->
-        <section
-          class="section"
-          id="events"
-        >
+        <section class="section" id="events">
           <h3 class="section__title">Актуальні події</h3>
 
           <div class="events">
@@ -288,10 +218,7 @@
         <!-- #endregion -->
 
         <!-- #region gallery -->
-        <section
-          class="section"
-          id="gallery"
-        >
+        <section class="section" id="gallery">
           <h3 class="section__title">Галерея</h3>
 
           <div class="section__content">
@@ -336,10 +263,7 @@
         <!-- #endregion -->
 
         <!-- #region subscription -->
-        <section
-          class="section"
-          id="subscription"
-        >
+        <section class="section" id="subscription">
           <div class="subscription">
             <div class="subscription__grid">
               <div class="subscription__content">
@@ -366,10 +290,7 @@
                     required
                   />
 
-                  <input
-                    type="submit"
-                    class="subscription-form__button"
-                  />
+                  <input type="submit" class="subscription-form__button" />
                 </form>
               </div>
             </div>
@@ -385,10 +306,7 @@
       <div class="footer__top">
         <!-- #region footer-header -->
         <div class="footer__header">
-          <a
-            href="#"
-            class="logo footer__logo"
-          >
+          <a href="#" class="logo footer__logo">
             <div class="logo__text">
               NA
               <br />
@@ -445,10 +363,7 @@
           <!-- #endregion -->
 
           <!-- #region contacts -->
-          <div
-            class="contacts footer__contacts"
-            id="contact-us"
-          >
+          <div class="contacts footer__contacts" id="contact-us">
             <p class="contacts__title">Контакти:</p>
 
             <p class="contacts__work-days">
@@ -475,10 +390,7 @@
           </div>
           <!-- #endregion -->
 
-          <a
-            href="#"
-            class="icons icons--up footer__up-button"
-          ></a>
+          <a href="#" class="icons icons--up footer__up-button"></a>
         </div>
         <!-- #endregion -->
 
@@ -488,36 +400,16 @@
         <nav class="nav nav--black footer__nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a
-                href="#gallery"
-                class="nav__link"
-              >
-                Галерея
-              </a>
+              <a href="#gallery" class="nav__link"> Галерея </a>
             </li>
             <li class="nav__item">
-              <a
-                href="#contact-us"
-                class="nav__link"
-              >
-                Про Нас
-              </a>
+              <a href="#contact-us" class="nav__link"> Про Нас </a>
             </li>
             <li class="nav__item">
-              <a
-                href="#events"
-                class="nav__link"
-              >
-                Виставки та події
-              </a>
+              <a href="#events" class="nav__link"> Виставки та події </a>
             </li>
             <li class="nav__item">
-              <a
-                href="#contact-us"
-                class="nav__link"
-              >
-                Контакти
-              </a>
+              <a href="#contact-us" class="nav__link"> Контакти </a>
             </li>
           </ul>
         </nav>

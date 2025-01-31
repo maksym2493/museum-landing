@@ -1,14 +1,12 @@
 .menu {
-  &__grid {
-    @include page-grid;
-    @include content-padding-inline;
+  @include page-grid;
+  @include content-padding-inline;
 
-    overflow-y: auto;
-    max-height: 100vh;
-    height: fit-content;
-    box-sizing: border-box;
-    background-color: $secondary-color;
-  }
+  overflow-y: auto;
+  max-height: 100vh;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: $secondary-color;
 
   &__content {
     display: grid;
