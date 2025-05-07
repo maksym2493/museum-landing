@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 100vw #000000bf;
-  background-image: url('../images/subscription-bg.jpg');
+  background-image: url("../images/subscription-bg.webp");
 
   &__grid {
     @include page-grid;
